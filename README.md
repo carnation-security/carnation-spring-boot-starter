@@ -32,7 +32,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.violetfreesia:carnation-spring-boot-starter:1.0.4'
+    // 版本请以最新的为准
+    implementation 'com.violetfreesia:carnation-spring-boot-starter:1.0.5'
 }
 ```
 
