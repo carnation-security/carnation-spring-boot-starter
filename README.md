@@ -1,4 +1,4 @@
-# Carnation（康乃馨）
+# Carnation（康乃馨）[![Release](https://jitpack.io/v/carnation-security/carnation-spring-boot-starter.svg)](https://jitpack.io/#carnation-security/carnation-spring-boot-starter)
 
 ## 介绍
 
@@ -23,7 +23,7 @@ dependencies {
 }
 ```
 
-### 引入Carnation
+### 引入Carnation(最新版[![Release](https://jitpack.io/v/carnation-security/carnation-spring-boot-starter.svg)](https://jitpack.io/#carnation-security/carnation-spring-boot-starter))
 
 ```groovy
 repositories {
@@ -33,7 +33,7 @@ repositories {
 
 dependencies {
     // 版本请以最新的为准
-    implementation 'com.violetfreesia:carnation-spring-boot-starter:1.0.5'
+    implementation 'com.github.carnation-security:carnation-spring-boot-starter:1.0.5'
 }
 ```
 
@@ -41,11 +41,11 @@ dependencies {
 
 ## 关联项目
 
->Carnation框架: [Carnation-Spring-Boot-Autoconfigure](https://github.com/VioletFreesia/carnation-core)
+>Carnation框架 [![Release](https://jitpack.io/v/carnation-security/carnation-core.svg)](https://jitpack.io/#carnation-security/carnation-core): [Carnation-Core](https://github.com/carnation-security/carnation-core)
 >
->自动配置: [Carnation-Spring-Boot-Autoconfigure](https://github.com/VioletFreesia/carnation-spring-boot-autoconfigure)
+>自动配置 [![Release](https://jitpack.io/v/carnation-security/carnation-spring-boot-autoconfigure.svg)](https://jitpack.io/#carnation-security/carnation-spring-boot-autoconfigure): [Carnation-Spring-Boot-Autoconfigure](https://github.com/carnation-security/carnation-spring-boot-autoconfigure)
 >
->使用案例：[Carnation-Spring-Boot-Starter-Test](https://github.com/VioletFreesia/carnation-spring-boot-starter-test)
+>使用案例：[Carnation-Spring-Boot-Starter-Test](https://github.com/carnation-security/carnation-spring-boot-starter-test)
 
 ## 框架的灵活程度
 
