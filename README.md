@@ -12,14 +12,14 @@
 
 ## 使用方法
 
-> 由于框架是基于SpringMVC的，所以框架已经主动引入了以下相关依赖，使用者可以无需再引入
+> 由于框架是基于SpringMVC的，所以框架必须引入以下依赖，请确保项目已经引入了这些依赖
 
 ```groovy
 dependencies {
-    apiElements 'org.springframework.boot:spring-boot-starter-web'
-    apiElements 'org.springframework.boot:spring-boot-starter-aop'
-    apiElements 'org.springframework.boot:spring-boot-starter-data-redis' 
-    // redis 所所需要的连接池已经引入， 同样不需要再引入
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-aop'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis' 
+    // redis 所所需要的连接池已经引入， 不需要再引入
 }
 ```
 
