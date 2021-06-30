@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.violetfreesia'
-version '1.0.8'
+version '1.0.9'
 sourceCompatibility = 8
 
 repositories {
@@ -16,10 +16,10 @@ repositories {
 
 dependencies {
     implementation 'com.github.carnation-security:carnation-core:1.0.6'
-    implementation 'com.github.carnation-security:carnation-spring-boot-autoconfigure:1.0.5'
+    implementation 'com.github.carnation-security:carnation-spring-boot-autoconfigure:1.0.6'
     apiElements 'org.apache.commons:commons-pool2:2.6.0'
     apiElements 'com.github.carnation-security:carnation-core:1.0.6'
-    apiElements 'com.github.carnation-security:carnation-spring-boot-autoconfigure:1.0.5'
+    apiElements 'com.github.carnation-security:carnation-spring-boot-autoconfigure:1.0.6'
 }
 
 java {
